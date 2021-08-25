@@ -54,3 +54,14 @@ const onDeleteClick = async () => {
     }
   };
 ```
+
+# File
+
+FileReader 를 사용해서 파일 이름을 읽을 수 있음
+https://developer.mozilla.org/ko/docs/Web/API/FileReader
+
+useRef() 를 사용해서 input 의 value 도 지워줌
+사진을 먼저 트윗에 첨부
+
+1. 파일에 대한 Reference 를 만든 후
+2. 파일 데이터를 reference 로 보냄 (put, putString) 사용
